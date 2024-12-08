@@ -105,3 +105,36 @@
    ```bash
    pip install pandas numpy statsmodels fbprophet tensorflow jupyter
 
+
+# FSI Code Analysis
+
+## 개요
+금융 거래 데이터에서 **이상 거래를 탐지하는 기능**을 개선하고 활용도를 높이는 분류 AI모델을 개발하는 것입니다. 
+특히, 클래스 불균형 문제를 해결하기 위해 오픈소스 생성형 AI 모델을 활용하여 부족한 클래스의 데이터를 보완하고, 이를 통해 분류 모델의 성능을 향상시키는 것이 핵심 목표입니다. 
+이러한 접근을 통해 금융보안에 특화된 데이터 분석 및 활용 역량을 강화하여 전문 인력을 양성하고, 금융권의 AI 활용 어려움에 따른 해결 방안을 함께 모색하며 금융 산업의 AI 활용 활성화를 지원하는 것을 목표로 합니다.
+
+## 사용된 기술 및 모델
+- **데이터 전처리**: Pandas, NumPy
+- **모델링**: CatBoost, XGBoost, RandomForest
+- **평가 지표**: F1 Score
+
+## 필요 패키지
+- `pandas`
+- `numpy`
+- `shap`
+- `xgboost`
+- `catboost`
+- `scipy`
+- `optuna`
+- `tqdm`
+- `sklearn`
+
+## 파일 설명
+- `FSI_code.ipynb`: FSI 코드 분석을 위한 주요 노트북 파일로, 데이터 로드부터 결과 해석까지의 전 과정을 포함합니다.
+
+## 설치 및 사용 방법
+1. 필요 패키지 설치
+   ```bash
+   pip install pandas numpy shap xgboost catboost scipy optuna tqdm scikit-learn
+   ```
+
